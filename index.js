@@ -36,6 +36,12 @@ function pageup10(){
 var width = 1;
 var btn_width = 10;
 var cnt = 1;
+function realmove() {
+    $(document).ready(function(){
+        moveprogress();
+    });
+}
+
 function moveprogress() {
     var elem = document.getElementById("mybar");
     var id = setInterval(frame, 10);
