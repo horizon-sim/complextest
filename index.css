@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@font-face {
+    font-family: 'EliceDigitalBaeum_Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/EliceDigitalBaeum_Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#name{
+    font-family: 'EliceDigitalBaeum_Bold';
+    font-size: 150px;
+    text-align: center;
+    margin-top: 50px;
+}
+#start_btn_center{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+#restart_btn_center{
+    display: none;
+    justify-content: center;
+    margin-top: 30px;
+}
+#start{
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding: 15px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 400px;
+    height: 120px;
+}
+#start:hover{
+    background-color: black;
+    color: white;
+}
+.body_class{
+    font-family: 'EliceDigitalBaeum_Bold';
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+}
+#yesorno{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.yes{
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 80px;
+    text-align: center;
+    padding: 15px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 200px;
+    height: 120px;
+    margin-top: 100px;
+    margin-right: 70px;
+}
+.yes:hover{
+    background-color: rgb(14, 185, 14);
+    color: white;
+    border: 2px solid rgb(14, 185, 14);
+}
+.no{
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 80px;
+    text-align: center;
+    padding: 15px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 200px;
+    height: 120px;
+    margin-top: 100px;
+}
+.no:hover{
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+}
+#progress{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+#myprogress {
+    position: relative;
+    width: 50%;
+    height: 10px;
+    background-color: #ddd;
+    margin-top: 150px;
+    border-radius: 5px;
+}
+  
+#mybar {
+    position: absolute;
+    width: 1%;
+    height: 100%;
+    background-color: #000000;
+    border-radius: 5px;
+}
+.result{
+    font-family: 'EliceDigitalBaeum_Bold';
+    font-size: 100px;
+    text-align: center;
+    margin-top: 40px;
+}
+#finalvalue{
+    font-family: 'EliceDigitalBaeum_Bold';
+    font-size: 150px;
+    text-align: center;
+}
+#explain{
+    font-family: 'EliceDigitalBaeum_Bold';
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+#explain1{
+    font-family: 'EliceDigitalBaeum_Bold';
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#count{
+    font-family: 'EliceDigitalBaeum_Bold';
+    font-size: 15px;
+    text-align: center;
+    margin-top: 5px;
+}
+.addthis_inline_share_toolbox{
+    display: none;
+    margin-top: 30px;
+    text-align: center;
+}

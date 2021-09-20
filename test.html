@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>열등감 테스트</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- Currently, on the homepage, jquery is under a mit license. -->
+</head>
+<body>
+    <div id="progress">
+        <div id="myprogress">
+            <div id="mybar"></div>
+        </div>
+    </div>
+    <div id="count">
+        0/10
+    </div>
+    <div class="test_set">
+        <div class="body_class">
+            "나는 학력이 낮아서 공부로 성공할수없다" 라는말에 동의한다.
+        </div>
+        <div id="yesorno">
+            <div>
+                <button class="yes" onclick="valueplus(); pageup1(); moveprogress();">O</button>
+                <button class="no" onclick="pageup1(); moveprogress();">X</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
