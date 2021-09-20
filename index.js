@@ -3,11 +3,12 @@
 var width = 1;
 var btn_width = 10;
 var cnt = 1;
-function realmove() {
-    $(".test_set").ready(function(){
-        moveprogress();
-    });
-}
+// function realmove() {
+//     $(".test_set").ready(function(){
+//         $(".testset").load("test1.html .test_set");
+//         moveprogress();
+//     });
+// }
 
 function moveprogress() {
     var elem = document.getElementById("mybar");
@@ -32,16 +33,28 @@ function valueplus(){
 }
 
 // 홈페이지 동적 전환
-function pageup1(){
-    $(".test_set").load("test1.html .test_set");
-    moveprogress();
+function realmove1() {
+    $(".test_set").ready(function(){
+        $(".testset").load("test1.html .test_set");
+        moveprogress();
+    });
 }
-function pageup2(){
-    $(".test_set").load("test2.html .test_set");
-    moveprogress();
+function realmove2() {
+    $(".test_set").ready(function(){
+        $(".testset").load("test1.html .test_set");
+        moveprogress();
+    });
 }
+// function pageup1(){
+//     $(".testset").load("test1.html .test_set");
+//     moveprogress();
+// }
+// function pageup2(){
+//     $(".testset").load("test2.html .test_set");
+//     moveprogress();
+// }
 function pageup3(){
-    $(".test_set").load("test3.html .test_set");
+    $(".testset").load("test3.html .test_set");
     moveprogress();
 }
 function pageup4(){
