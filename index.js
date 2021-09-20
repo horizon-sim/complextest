@@ -1,37 +1,4 @@
 
-
-// 홈페이지 동적 전환
-function pageup1(){
-    $(".test_set").load("test1.html .test_set");
-}
-function pageup2(){
-    $(".test_set").load("test2.html .test_set");
-}
-function pageup3(){
-    $(".test_set").load("test3.html .test_set");
-}
-function pageup4(){
-    $(".test_set").load("test4.html .test_set");
-}
-function pageup5(){
-    $(".test_set").load("test5.html .test_set");
-}
-function pageup6(){
-    $(".test_set").load("test6.html .test_set");
-}
-function pageup7(){
-    $(".test_set").load("test7.html .test_set");
-}
-function pageup8(){
-    $(".test_set").load("test8.html .test_set");
-}
-function pageup9(){
-    $(".test_set").load("test9.html .test_set");
-}
-function pageup10(){
-    $(".test_set").load("test10.html .test_set");
-}
-
 // 프로그레스 이동
 var width = 1;
 var btn_width = 10;
@@ -62,6 +29,41 @@ function moveprogress() {
 var value = 0;
 function valueplus(){
     value += 1;
+}
+
+// 홈페이지 동적 전환
+function pageup1(){
+    $(".test_set").load("test1.html .test_set");
+    moveprogress();
+}
+function pageup2(){
+    $(".test_set").load("test2.html .test_set");
+    moveprogress();
+}
+function pageup3(){
+    $(".test_set").load("test3.html .test_set");
+    moveprogress();
+}
+function pageup4(){
+    $(".test_set").load("test4.html .test_set");
+}
+function pageup5(){
+    $(".test_set").load("test5.html .test_set");
+}
+function pageup6(){
+    $(".test_set").load("test6.html .test_set");
+}
+function pageup7(){
+    $(".test_set").load("test7.html .test_set");
+}
+function pageup8(){
+    $(".test_set").load("test8.html .test_set");
+}
+function pageup9(){
+    $(".test_set").load("test9.html .test_set");
+}
+function pageup10(){
+    $(".test_set").load("test10.html .test_set");
 }
 
 // 결과화면 이동 / 값 넣기
