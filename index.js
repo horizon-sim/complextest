@@ -37,7 +37,7 @@ var width = 1;
 var btn_width = 10;
 var cnt = 1;
 function realmove() {
-    $(document).ready(function(){
+    $(".test_set").ready(function(){
         moveprogress();
     });
 }
