@@ -69,6 +69,7 @@ function result(){
             $("#finalvalue").html("17점");
             $("#restart_btn_center").css('display', 'flex');
             $(".addthis_inline_share_toolbox").show();
+            $("#copyright").show();
             $("#explain").html("당신의 열등감점수는 매우낮은편이며");
             $("#explain1").html("적당한 열등감은 자기성장에 도움이됩니다.")}, 1500);
     }
@@ -77,6 +78,7 @@ function result(){
             $("#finalvalue").html("39점");
             $("#restart_btn_center").css('display', 'flex');
             $(".addthis_inline_share_toolbox").show();
+            $("#copyright").show();
             $("#explain").html("당신의 열등감점수는 낮은편이며");
             $("#explain1").html("적당한 열등감은 자기성장에 도움이됩니다.")}, 1500)
     }
@@ -85,6 +87,7 @@ function result(){
             $("#finalvalue").html("55점");
             $("#restart_btn_center").css('display', 'flex');
             $(".addthis_inline_share_toolbox").show();
+            $("#copyright").show();
             $("#explain").html("당신의 열등감점수는 보통이며");
             $("#explain1").html("적당한 열등감은 자기성장에 도움이됩니다.")}, 1500);    
     }
@@ -93,6 +96,7 @@ function result(){
             $("#finalvalue").html("78점");
             $("#restart_btn_center").css('display', 'flex');
             $(".addthis_inline_share_toolbox").show();
+            $("#copyright").show();
             $("#explain").html("당신의 열등감점수는 높은편이며");
             $("#explain1").html("적당한 열등감은 자기성장에 도움이됩니다.")}, 1500);
     }
@@ -101,6 +105,7 @@ function result(){
             $("#finalvalue").html("97점");
             $("#restart_btn_center").css('display', 'flex');
             $(".addthis_inline_share_toolbox").show();
+            $("#copyright").show();
             $("#explain").html("당신의 열등감점수는 매우높은편이며");
             $("#explain1").html("적당한 열등감은 자기성장에 도움이됩니다.")}, 1500);
     }

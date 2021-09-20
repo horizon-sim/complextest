@@ -138,6 +138,14 @@
     margin-top: 30px;
     text-align: center;
 }
+#copyright{
+    font-family: 'EliceDigitalBaeum_Bold';
+    display: none;
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center;
+    color: #999999;
+}
 
 @media(max-width: 480px){
     #name{
