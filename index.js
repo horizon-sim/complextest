@@ -35,21 +35,13 @@ function valueplus(){
 // 홈페이지 동적 전환
 
 function pageup1(){
-    $(".testset").load("test1.html .test_set");
-    $(document).ready(function(){
-        moveprogress();
-    });
+    $(".testset").load("test1.html .test_set",moveprogress());
+    // moveprogress();
 }
 function pageup2(){
-    $(".testset").load("test2.html .test_set");
-    $(document).ready(function(){
-        moveprogress();
-    });
+    $(".testset").load("test2.html .test_set",moveprogress());
+    // moveprogress();
 }
-// function pageup2(){
-//     $(".testset").load("test2.html .test_set");
-//     moveprogress();
-// }
 function pageup3(){
     $(".testset").load("test3.html .test_set");
     moveprogress();
