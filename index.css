@@ -173,15 +173,16 @@
     #yesorno{
         display: flex;
         justify-content: center;
-        margin-top: 30px;
+        margin-top: 15px;
     }
     .yes{
         font-size: 50px;
-        padding: 15px;
+        padding: 10px;
         border-radius: 50px;
-        width: 150px;
-        height: 120px;
-        
+        width: 100px;
+        height: 100px;
+        margin-top: 70px;
+        margin-right: 30px;
     }
     .yes:hover{
         background-color: rgb(14, 185, 14);
@@ -192,8 +193,9 @@
         font-size: 50px;
         padding: 15px;
         border-radius: 50px;
-        width: 150px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
+        margin-top: 70px;
     }
     .no:hover{
         background-color: red;
@@ -229,7 +231,7 @@
     }
     #finalvalue{
         font-family: 'EliceDigitalBaeum_Bold';
-        font-size: 70px;
+        font-size: 55px;
         text-align: center;
     }
     #explain{
