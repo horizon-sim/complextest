@@ -41,7 +41,19 @@ function realmove1() {
 }
 function realmove2() {
     $(".test_set").ready(function(){
-        $(".testset").load("test1.html .test_set");
+        $(".testset").load("test2.html .test_set");
+        moveprogress();
+    });
+}
+function realmove3() {
+    $(".test_set").ready(function(){
+        $(".testset").load("test3.html .test_set");
+        moveprogress();
+    });
+}
+function realmove4() {
+    $(".test_set").ready(function(){
+        $(".testset").load("test4.html .test_set");
         moveprogress();
     });
 }
