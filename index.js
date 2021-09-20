@@ -3,13 +3,6 @@
 var width = 1;
 var btn_width = 10;
 var cnt = 1;
-// function realmove() {
-//     $(".test_set").ready(function(){
-//         $(".testset").load("test1.html .test_set");
-//         moveprogress();
-//     });
-// }
-
 function moveprogress() {
     var elem = document.getElementById("mybar");
     var id = setInterval(frame, 10);
@@ -36,36 +29,33 @@ function valueplus(){
 
 function pageup1(){
     $(".testset").load("test1.html .test_set",moveprogress());
-    // moveprogress();
 }
 function pageup2(){
     $(".testset").load("test2.html .test_set",moveprogress());
-    // moveprogress();
 }
 function pageup3(){
-    $(".testset").load("test3.html .test_set");
-    moveprogress();
+    $(".testset").load("test3.html .test_set",moveprogress());
 }
 function pageup4(){
-    $(".test_set").load("test4.html .test_set");
+    $(".test_set").load("test4.html .test_set",moveprogress());
 }
 function pageup5(){
-    $(".test_set").load("test5.html .test_set");
+    $(".test_set").load("test5.html .test_set",moveprogress());
 }
 function pageup6(){
-    $(".test_set").load("test6.html .test_set");
+    $(".test_set").load("test6.html .test_set",moveprogress());
 }
 function pageup7(){
-    $(".test_set").load("test7.html .test_set");
+    $(".test_set").load("test7.html .test_set",moveprogress());
 }
 function pageup8(){
-    $(".test_set").load("test8.html .test_set");
+    $(".test_set").load("test8.html .test_set",moveprogress());
 }
 function pageup9(){
-    $(".test_set").load("test9.html .test_set");
+    $(".test_set").load("test9.html .test_set",moveprogress());
 }
 function pageup10(){
-    $(".test_set").load("test10.html .test_set");
+    $(".test_set").load("test10.html .test_set",moveprogress());
 }
 
 // 결과화면 이동 / 값 넣기
