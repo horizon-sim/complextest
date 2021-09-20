@@ -33,34 +33,19 @@ function valueplus(){
 }
 
 // 홈페이지 동적 전환
-function realmove1() {
-    $(".test_set").ready(function(){
-        $(".testset").load("test1.html .test_set");
+
+function pageup1(){
+    $(".testset").load("test1.html .test_set");
+    $(document).ready(function(){
         moveprogress();
     });
 }
-function realmove2() {
-    $(".test_set").ready(function(){
-        $(".testset").load("test2.html .test_set");
+function pageup2(){
+    $(".testset").load("test2.html .test_set");
+    $(document).ready(function(){
         moveprogress();
     });
 }
-function realmove3() {
-    $(".test_set").ready(function(){
-        $(".testset").load("test3.html .test_set");
-        moveprogress();
-    });
-}
-function realmove4() {
-    $(".test_set").ready(function(){
-        $(".testset").load("test4.html .test_set");
-        moveprogress();
-    });
-}
-// function pageup1(){
-//     $(".testset").load("test1.html .test_set");
-//     moveprogress();
-// }
 // function pageup2(){
 //     $(".testset").load("test2.html .test_set");
 //     moveprogress();
